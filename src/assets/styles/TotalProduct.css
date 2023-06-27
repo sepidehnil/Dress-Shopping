@@ -1,0 +1,41 @@
+.total-continer {
+  width: 28%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.total-continer > div {
+  margin-bottom: 20px;
+}
+.total-border {
+  border-bottom: 1px solid gray;
+}
+.total-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 100px;
+}
+.total-price > button {
+  background-color: #f0c041;
+  padding: 15px 20px;
+  font-size: 1.4rem;
+  border: none;
+}
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 80px;
+}
+.form-cont > input {
+  padding: 20px 10px;
+  font-size: 1.3rem;
+}
+#submit {
+  background-color: #f0c041;
+  border: none;
+}
